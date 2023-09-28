@@ -1,7 +1,7 @@
 #importer un module
 import random
 
-#fonction pour deemander les bornes du joueur et choisir un nb random entre les bornes, input: integer, ouput: integer
+#fonction pour demander les bornes du joueur et choisir un nb random entre les bornes, input: integer, ouput: integer
 def new_nb():
     range_min = int(input("Qu'elle est le borne minimum:"))
     range_max = int(input("Qu'elle est le borne maximum:"))

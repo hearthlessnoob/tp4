@@ -93,10 +93,10 @@ class MyGame(arcade.Window):
 
     def on_mouse_press(self, x, y, button, modifiers):
         if button == arcade.MOUSE_BUTTON_LEFT:
-            balle = Balle(x, y, random.randint(10, 30), random.choice(COLORS))
+            balle = Balle(x, y, 30, random.choice(COLORS))
             self.balles.append(balle)
         elif button == arcade.MOUSE_BUTTON_RIGHT:
-            rectangle = Rectangle(x, y, random.randint(10, 100), random.randint(10, 100), random.choice(COLORS), 0)
+            rectangle = Rectangle(x, y, 50, 50, random.choice(COLORS), 0)
             self.rectangles.append(rectangle)
 
 

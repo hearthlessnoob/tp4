@@ -11,8 +11,8 @@ class Balle:
     def __init__(self, x, y, rayon, color):
         self.x = x
         self.y = y
-        self.change_x = 3  
-        self.change_y = 3  
+        self.change_x = 10  
+        self.change_y = 10  
         self.rayon = rayon
         self.color = color
 
@@ -41,8 +41,8 @@ class Rectangle:
     def __init__(self, x, y, width, height, color, angle):
         self.x = x
         self.y = y
-        self.change_x = 3 
-        self.change_y = 3  
+        self.change_x = 10 
+        self.change_y = 10  
         self.width = width
         self.height = height
         self.color = color

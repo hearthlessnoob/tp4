@@ -92,7 +92,7 @@ class MyGame(arcade.Window):
             balle = Balle(x, y, 30, random.choice(COLORS))
             self.balles.append(balle)
         elif button == arcade.MOUSE_BUTTON_RIGHT:
-            rectangle = Rectangle(x, y, 300, 300, random.choice(COLORS), 0)
+            rectangle = Rectangle(x, y, 50, 50, random.choice(COLORS), 0)
             self.rectangles.append(rectangle)
 
 
